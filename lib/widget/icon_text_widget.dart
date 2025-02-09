@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class IconTextWidget extends StatelessWidget {
   IconTextWidget({super.key, required this.image, required this.text});
   String image;

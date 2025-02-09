@@ -1,6 +1,6 @@
 import 'package:facebook_app/home_screen.dart';
-import 'package:facebook_app/login_screen.dart';
-import 'package:facebook_app/splach_screen.dart';
+// import 'package:facebook_app/login_screen.dart';
+// import 'package:facebook_app/splach_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

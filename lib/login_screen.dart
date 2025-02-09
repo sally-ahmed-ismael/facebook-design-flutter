@@ -2,9 +2,12 @@ import 'package:facebook_app/home_screen.dart';
 import 'package:facebook_app/widget/text_form_field_widget.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class LoginScreen extends StatelessWidget {
   var emailController = TextEditingController();
   var passwordController = TextEditingController();
+
+  LoginScreen({super.key});
 
   // const LoginScreen({super.key});
   @override
@@ -80,7 +83,7 @@ class LoginScreen extends StatelessWidget {
 
           MaterialButton(
             onPressed: () {
-            print(emailController.text);
+            // print(emailController.text);
           },
           color:  Color.fromARGB(255, 176, 204, 240),
           minWidth: 344,

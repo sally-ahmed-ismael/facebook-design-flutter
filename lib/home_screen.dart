@@ -6,12 +6,13 @@ import 'package:facebook_app/widget/icon_text_widget.dart';
 
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class HomeScreen extends StatelessWidget {
   // const HomeScreen({super.key});
  List <AccountImage> accountsList = [];
-  HomeScreen(){
+  HomeScreen({super.key}){
     initData();
-    print(accountsList.length);
+    // print(accountsList.length);
 
   } 
 
